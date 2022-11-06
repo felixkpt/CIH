@@ -1,0 +1,19 @@
+{
+    "name": "felix/contact",
+    "description": "This will send email and save contact query in DB",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CIH\\Ministries\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kiptoo",
+            "email": "felixkpt@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
