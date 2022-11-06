@@ -1,6 +1,6 @@
 {
-    "name": "felix/contact",
-    "description": "This will send email and save contact query in DB",
+    "name": "felixkpt/ministries",
+    "description": "This will send email and save query in DB",
     "type": "library",
     "license": "MIT",
     "autoload": {
