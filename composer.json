@@ -1,5 +1,5 @@
 {
-    "name": "felixkpt/ministries",
+    "name": "cih/ministries",
     "description": "This will send email and save query in DB",
     "type": "library",
     "license": "MIT",
