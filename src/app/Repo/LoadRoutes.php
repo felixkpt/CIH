@@ -1,5 +1,5 @@
 <?php 
-namespace CIH\Ministries\App\Repo;
+namespace CIH\Core\App\Repo;
 
 class LoadRoutes {
 
@@ -11,7 +11,7 @@ class LoadRoutes {
             if (strpos($filename, '.php') !== FALSE) {
                 # php files:
                 $r_maps[] = $filename;
-                if ($debug) echo "included: $filename <br>";
+                if ($debug === true) echo "included: $filename <br>";
             } else {
                 # dirs
                 $paths[] = $filename;

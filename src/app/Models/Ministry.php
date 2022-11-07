@@ -1,6 +1,6 @@
 <?php
 
-namespace CIH\Ministries\App\Models;
+namespace CIH\Core\App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

@@ -1,11 +1,19 @@
 {
-    "name": "cih/ministries",
-    "description": "This will send email and save query in DB",
+    "name": "cih/core",
+    "description": "This is CIH core driver",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "CIH\\Ministries\\": "src/"
+            "CIH\\Core\\": "src",
+            "CIH\\Core\\App\\": "src/app"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\CIH\\Movies\\MoviesServiceProvider::class"
+            ]
         }
     },
     "authors": [

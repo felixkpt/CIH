@@ -1,10 +1,10 @@
 <?php
 
-namespace CIH\Ministries\App\Http\Controllers;
+namespace CIH\Core\App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use CIH\Ministries\App\Models\Ministry;
+use CIH\Core\App\Models\Ministry;
 
 class MinistriesController extends Controller
 {

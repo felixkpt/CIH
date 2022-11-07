@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'C\\Ministries\\' => array($baseDir . '/src'),
+    'CIH\\Core\\App\\' => array($baseDir . '/src/app'),
 );
