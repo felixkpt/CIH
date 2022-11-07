@@ -12,7 +12,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "\\CIH\\Movies\\MoviesServiceProvider::class"
+                "\\CIH\\Movies\\MoviesServiceProvider"
             ]
         }
     },
