@@ -12,7 +12,7 @@ class CIHServiceProvider extends ServiceProvider
 
     public function boot()
     {
- 
+
         // Pushing our middlewares
         /** @var Router $router */
         $router = $this->app['router'];
@@ -25,8 +25,10 @@ class CIHServiceProvider extends ServiceProvider
         $this->app->bind('module', function () {
             return $this->module;
         });
+        
         $this->app->bind('folder', function () {
-            return $this->module . '::' . \request()->route()->uri;
+            $resolve_folder = \request()->route()->uri;
+            return $this->module . '::' . ($resolve_folder === '/') ? 'home' : $resolve_folder;
         });
 
         // Telling Laravel where to load our routes, views, and migrations from

@@ -30,7 +30,7 @@ class ModuleContent
         }
     }
 
-    function controller()
+    static function controller()
     {
         $namespace = 'CIH\\' . self::$namespace;
         $contents = 
@@ -42,7 +42,7 @@ class ' . self::$name . ' {
 
         file_put_contents(self::$path, $contents);
     }
-    function model()
+    static function model()
     {
         $namespace = 'CIH\\' . self::$namespace;
         $contents = 
@@ -54,7 +54,7 @@ class ' . self::$name . ' {
         file_put_contents(self::$path, $contents);
     }
 
-    function migration()
+    static function migration()
     {
 
    Artisan::call('make:migration', 
@@ -67,7 +67,7 @@ class ' . self::$name . ' {
 
     }
 
-    function route()
+    static function route()
     {
         $contents = 
 '<?php 

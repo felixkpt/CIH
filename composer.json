@@ -5,15 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "CIH\\Core\\": "src",
-            "CIH\\Core\\App\\": "src/app"
+            "CIH\\Leads\\App\\": "modules/Leads/app"
         }
     },
     "extra": {
         "laravel": {
-            "providers": [
-                "\\CIH\\Movies\\MoviesServiceProvider"
-            ]
+            "providers": []
         }
     },
     "authors": [
